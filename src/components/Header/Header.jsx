@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import user from "../../images/user.jpg"
+import user from "../../images/user.png"
 import "./header.scss"
 import { fetchAsyncShows, fetchAsyncMovies } from '../../features/movies/Slice';
 import { useDispatch } from 'react-redux';
