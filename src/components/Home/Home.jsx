@@ -12,9 +12,10 @@ function home() {
    
 
   useEffect(()=>{
-    
-  dispatch(fetchAsyncMovies())
-  dispatch(fetchAsyncShows())
+    const movie = 'harry'
+    const shows = 'Friends'
+  dispatch(fetchAsyncMovies(movie))
+  dispatch(fetchAsyncShows(shows))
 
    
   },[dispatch])
